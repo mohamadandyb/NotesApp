@@ -1,0 +1,7 @@
+<!-- res/xml/backup_rules.xml -->
+<full-backup-content>
+    <!-- Menyertakan semua file dalam direktori databases -->
+    <include domain="database" path="."/>
+    <!-- Menyertakan semua file dalam direktori file -->
+    <include domain="file" path="."/>
+</full-backup-content>
